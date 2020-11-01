@@ -2,30 +2,33 @@ import React, { Component } from 'react';
 import './Pill.css';
 
 class Pill extends Component {
+    HEADING_CLASS = 'headingMode';
+
     constructor(props) {
         super(props);
         this.state = {
             headingMode: false,
-            className: '',
         }
-        this.stateChange = this.stateChange.bind(this);
-        this.myRef = React.createRef();
+        this.toggleHeading = this.toggleHeading.bind(this);
     }
 
-    stateChange () {
+    toggleHeading () {
         const headingMode = !this.state.headingMode;
         this.setState({
             headingMode,
-            className: headingMode  ? 'headingMode' : ''
         });
     }
 
     render() {
+        const className = `pill ${this.state.headingMode && this.HEADING_CLASS}`;
         return (
-            <div ref={this.myRef} className={`pill ${this.state.className}`} onClick={this.stateChange}>
-                <span className="heading">H</span>
-                {this.props.children}
-            </div>
+            <>
+                { this.props._breakLine ? <br/> : null }
+                <div className={className} onClick={this.toggleHeading}>
+                    <span className="heading">H</span>
+                    {this.props.term}
+                </div>
+            </>
         );
     }
 }
