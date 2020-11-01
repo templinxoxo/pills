@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/pills/static/css/main.5dbbb231.chunk.css",
-    "main.js": "/pills/static/js/main.64c8e406.chunk.js",
-    "main.js.map": "/pills/static/js/main.64c8e406.chunk.js.map",
+    "main.js": "/pills/static/js/main.80775765.chunk.js",
+    "main.js.map": "/pills/static/js/main.80775765.chunk.js.map",
     "runtime-main.js": "/pills/static/js/runtime-main.0ddc8217.js",
     "runtime-main.js.map": "/pills/static/js/runtime-main.0ddc8217.js.map",
-    "static/js/2.b31cec3d.chunk.js": "/pills/static/js/2.b31cec3d.chunk.js",
-    "static/js/2.b31cec3d.chunk.js.map": "/pills/static/js/2.b31cec3d.chunk.js.map",
+    "static/js/2.58ac19be.chunk.js": "/pills/static/js/2.58ac19be.chunk.js",
+    "static/js/2.58ac19be.chunk.js.map": "/pills/static/js/2.58ac19be.chunk.js.map",
     "index.html": "/pills/index.html",
     "static/css/main.5dbbb231.chunk.css.map": "/pills/static/css/main.5dbbb231.chunk.css.map",
-    "static/js/2.b31cec3d.chunk.js.LICENSE.txt": "/pills/static/js/2.b31cec3d.chunk.js.LICENSE.txt"
+    "static/js/2.58ac19be.chunk.js.LICENSE.txt": "/pills/static/js/2.58ac19be.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0ddc8217.js",
-    "static/js/2.b31cec3d.chunk.js",
+    "static/js/2.58ac19be.chunk.js",
     "static/css/main.5dbbb231.chunk.css",
-    "static/js/main.64c8e406.chunk.js"
+    "static/js/main.80775765.chunk.js"
   ]
 }
